@@ -1,22 +1,22 @@
 name: openai_api
 description: A Dart API client for OpenAI. You can use it in Dart or Flutter applications. for more information please refer to Openai API reference.
-version: 0.3.7
+version: 0.3.8
 repository: https://github.com/trevorwang/openai_dart
 
 environment:
-  sdk: '>=2.18.0 <3.0.0'
+  sdk: '>=2.12.0 <4.0.0'
 
 dev_dependencies:
   build_runner: ^2.3.3
-  freezed: ^2.1.0
-  lints: ^3.0.0
-  test: ^1.21.0
-  json_serializable: ^6.6.1
+  freezed: ^2.5.2
+  lints: ^4.0.0
+  test: ^1.25.5
+  json_serializable: ^6.8.0
 
 dependencies:
-  envied: ^0.3.0
-  envied_generator: ^0.3.0
-  freezed_annotation: ^2.2.0
+  envied: ^0.5.4+1
+  envied_generator: ^0.5.4+1
+  freezed_annotation: ^2.4.1
   cancellation_token_http: ^2.0.0
   http_parser: ^4.0.2
   json_annotation: ^4.9.0
